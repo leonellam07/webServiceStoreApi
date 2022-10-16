@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "o1odVt0gmJY2K05unDAOdxO313u9xVAx87TmBzTZ/ZM=",
+  "Source": "webServiceStoreApi",
+  "BasePath": "_content/webServiceStoreApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
