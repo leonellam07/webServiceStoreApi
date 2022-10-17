@@ -125,6 +125,8 @@ namespace DataBase.Migrations
 
                     b.HasIndex("InvoiceId");
 
+                    b.HasIndex("ItemId");
+
                     b.ToTable("InvoiceDetails");
                 });
 
@@ -187,7 +189,7 @@ namespace DataBase.Migrations
 
                     b.HasOne("DataBase.Entities.Item", "Item")
                         .WithMany("InvoiceDetails")
-                        .HasForeignKey("InvoiceId")
+                        .HasForeignKey("ItemId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 

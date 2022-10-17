@@ -8,7 +8,6 @@
 
   <ItemGroup>
     <Compile Remove="Controllers\ArticuloController.cs" />
-    <Compile Remove="Controllers\FacturaController.cs" />
   </ItemGroup>
 
   <ItemGroup>

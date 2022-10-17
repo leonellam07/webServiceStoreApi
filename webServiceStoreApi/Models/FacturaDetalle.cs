@@ -2,6 +2,7 @@
 {
     public class FacturaDetalle
     {
+        public int FacturaId { get; set; } 
         public int NoLinea { get; set; }
         public int ArticuloId { get; set; }
         public virtual Articulo Articulo { get; set; }

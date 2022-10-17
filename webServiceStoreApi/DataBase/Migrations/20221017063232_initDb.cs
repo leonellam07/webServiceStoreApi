@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace DataBase.Migrations
 {
-    public partial class initDB : Migration
+    public partial class initDb : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -91,8 +91,8 @@ namespace DataBase.Migrations
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_InvoiceDetails_Items_InvoiceId",
-                        column: x => x.InvoiceId,
+                        name: "FK_InvoiceDetails_Items_ItemId",
+                        column: x => x.ItemId,
                         principalTable: "Items",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
@@ -102,6 +102,11 @@ namespace DataBase.Migrations
                 name: "IX_InvoiceDetails_InvoiceId",
                 table: "InvoiceDetails",
                 column: "InvoiceId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_InvoiceDetails_ItemId",
+                table: "InvoiceDetails",
+                column: "ItemId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Invoices_CustomerId",

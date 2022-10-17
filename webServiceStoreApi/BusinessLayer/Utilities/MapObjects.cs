@@ -13,6 +13,7 @@ namespace BusinessLayer.Utilities
         #region Cliente-Customer
         public static Cliente ConvertCustomerToCliente(Customer customer)
         {
+            if(customer == null) return new Cliente();
             return new Cliente
             {
                 Id = customer.Id,
@@ -27,6 +28,7 @@ namespace BusinessLayer.Utilities
 
         public static Customer ConvertClienteToCustomer(Cliente cliente)
         {
+            if (cliente == null) return new Customer();
             return new Customer
             {
                 Id = cliente.Id,
@@ -43,6 +45,7 @@ namespace BusinessLayer.Utilities
         #region Articulo-Item
         public static Item ConvertArticuloToItem(Articulo articulo)
         {
+            if (articulo == null) return new Item();
             return new Item
             {
                 Id = articulo.Id,
@@ -57,6 +60,7 @@ namespace BusinessLayer.Utilities
 
         public static Articulo ConvertItemToArticulo(Item item)
         {
+            if (item == null) return new Articulo();
             return new Articulo
             {
                 Id = item.Id,
@@ -111,8 +115,9 @@ namespace BusinessLayer.Utilities
         {
             return new FacturaDetalle
             {
+                FacturaId = invoiceDetail.InvoiceId,
                 NoLinea = invoiceDetail.Noline,
-                ArticuloId = invoiceDetail.InvoiceId,
+                ArticuloId = invoiceDetail.ItemId,
                 Articulo = ConvertItemToArticulo(invoiceDetail.Item),
                 Cantidad = invoiceDetail.Quantity,
                 Impuesto = invoiceDetail.Vat,
@@ -125,6 +130,7 @@ namespace BusinessLayer.Utilities
         {
             return new InvoiceDetail
             {
+                InvoiceId = facturaDetalle.FacturaId,
                 Noline = facturaDetalle.NoLinea,
                 ItemId = facturaDetalle.ArticuloId,
                 Item = ConvertArticuloToItem(facturaDetalle.Articulo),

@@ -21,7 +21,21 @@ namespace DataAccess.Repositories
 
         public Invoice Add(Invoice invoice)
         {
+            invoice.Customer = null;
+            List<InvoiceDetail> details = invoice.InvoiceDetails.Select(detail => new InvoiceDetail
+            {
+                InvoiceId = detail.InvoiceId,
+                ItemId = detail.ItemId,
+                Noline = detail.Noline,
+                Price = detail.Price,
+                Quantity = detail.Quantity,
+                Vat = detail.Vat,
+                Total = detail.Total
+            }).ToList();
+
+            invoice.InvoiceDetails = details;
             _db.Add(invoice);
+
             _db.SaveChanges();
             return invoice;
         }
@@ -39,7 +53,28 @@ namespace DataAccess.Repositories
         public Invoice Find(int id)
         {
             if (!_db.Invoices.Any(w => w.Id == id)) throw new Exception("Factura no encontrada");
-            return _db.Invoices.Where(w => w.Id == id).FirstOrDefault();
+            Invoice invoice = _db.Invoices.Where(w => w.Id == id).FirstOrDefault();
+            invoice.Id = invoice.Id;
+            invoice.Created = invoice.Created;
+            invoice.CustomerId = invoice.CustomerId;
+            invoice.Customer = _db.Customers.Where(w => w.Id == invoice.CustomerId).FirstOrDefault();
+            invoice.InvoiceDetails = _db.InvoiceDetails.Where(w => w.InvoiceId == invoice.Id).Select(sub => new InvoiceDetail
+            {
+                Noline = sub.Noline,
+                InvoiceId = sub.InvoiceId,
+                ItemId = sub.ItemId,
+                Item = _db.Items.Where(w2 => w2.Id == sub.ItemId).FirstOrDefault(),
+                Quantity = sub.Quantity,
+                Price = sub.Price,
+                Vat = sub.Vat,
+                Total = sub.Total
+
+            }).ToList();
+            invoice.Vat = invoice.Vat;
+            invoice.Total = invoice.Total;
+            invoice.IsCanceled = invoice.IsCanceled;
+            invoice.IsClosed = invoice.IsClosed;
+            return invoice;
         }
 
         public ICollection<Invoice> GetAll(DateTime date)
@@ -52,6 +87,47 @@ namespace DataAccess.Repositories
         {
             if (!_db.Invoices.Any(w => w.Created.Year == year && w.Created.Month == month)) throw new Exception("Facturas no encontradas");
             return _db.Invoices.Where(w => w.Created.Year == year && w.Created.Month == month).ToList();
+        }
+
+        public ICollection<Invoice> GetAll()
+        {
+            if (!_db.Invoices.Any()) throw new Exception("Facturas no encontradas");
+
+            List<Invoice> list = _db.Invoices.Select(invoice => new Invoice
+            {
+                Id = invoice.Id,
+                Created = invoice.Created,
+                CustomerId = invoice.CustomerId,
+                Customer = _db.Customers.Where(w => w.Id == invoice.CustomerId).FirstOrDefault(),
+                InvoiceDetails = _db.InvoiceDetails.Where(w => w.InvoiceId == invoice.Id).Select(sub => new InvoiceDetail
+                {
+                    Noline = sub.Noline,
+                    InvoiceId = sub.InvoiceId,
+                    ItemId = sub.ItemId,
+                    Item = _db.Items.Where(w2 => w2.Id == sub.ItemId).FirstOrDefault(),
+                    Quantity = sub.Quantity,
+                    Price = sub.Price,
+                    Vat = sub.Vat,
+                    Total = sub.Total
+
+                }).ToList(),
+                Vat = invoice.Vat,
+                Total = invoice.Total,
+                IsCanceled = invoice.IsCanceled,
+                IsClosed = invoice.IsClosed
+            }).ToList();
+
+
+            return list;
+        }
+
+        public bool Update(Invoice invoice)
+        {
+            if (!_db.Invoices.Any(w => w.Id == invoice.Id)) throw new Exception("Factura no encontrada");
+
+            _db.Invoices.Update(invoice);
+            _db.SaveChanges();
+            return true;
         }
     }
 }

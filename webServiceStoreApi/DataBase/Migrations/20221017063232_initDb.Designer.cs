@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DataBase.Migrations
 {
     [DbContext(typeof(ApplicationContext))]
-    [Migration("20221015234906_initDB")]
-    partial class initDB
+    [Migration("20221017063232_initDb")]
+    partial class initDb
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -127,6 +127,8 @@ namespace DataBase.Migrations
 
                     b.HasIndex("InvoiceId");
 
+                    b.HasIndex("ItemId");
+
                     b.ToTable("InvoiceDetails");
                 });
 
@@ -189,7 +191,7 @@ namespace DataBase.Migrations
 
                     b.HasOne("DataBase.Entities.Item", "Item")
                         .WithMany("InvoiceDetails")
-                        .HasForeignKey("InvoiceId")
+                        .HasForeignKey("ItemId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 

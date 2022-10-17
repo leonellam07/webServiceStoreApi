@@ -55,7 +55,7 @@ namespace DataBase
 
                 entity.HasOne<Item>(table => table.Item)
                         .WithMany(detail => detail.InvoiceDetails)
-                       .HasForeignKey(fkey => fkey.InvoiceId);
+                       .HasForeignKey(fkey => fkey.ItemId);
             });
 
         }

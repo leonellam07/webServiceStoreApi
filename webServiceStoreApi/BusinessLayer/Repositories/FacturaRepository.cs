@@ -42,6 +42,14 @@ namespace BusinessLayer.Repositories
             }).ToList();
         }
 
+        public ICollection<Factura> GetAll()
+        {
+            return _invoice.GetAll().Select(invoice =>
+            {
+                return MapObjects.ConvertInvoiceToFactura(invoice);
+            }).ToList();
+        }
+
         public ICollection<Factura> GetAll(int anio, int mes, bool? cancelado)
         {
             return _invoice.GetAll(anio, mes, cancelado).Select(invoice =>
@@ -50,7 +58,10 @@ namespace BusinessLayer.Repositories
             }).ToList();
         }
 
-
-      
+        public bool Update(Factura factura)
+        {
+            _invoice.Update(MapObjects.ConvertFacturaToInvoice(factura));
+            return true;
+        }
     }
 }
