@@ -9,13 +9,14 @@ using System.Threading.Tasks;
 
 namespace DataAccess.Repositories
 {
-    public class ItemRepository: IItem
+    public class IItemRepository: IItem
     {
-        private ApplicationContext _db;
+        private readonly ApplicationContext _db;
 
-        public ItemRepository(ApplicationContext applicationContext)
+
+        public IItemRepository(ApplicationContext db)
         {
-            _db = applicationContext;
+            _db = db;
         }
 
         public Item Add(Item item)

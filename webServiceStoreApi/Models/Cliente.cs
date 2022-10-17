@@ -15,6 +15,5 @@ namespace Models
         public string NIT { get; set; }
         public string? Direccion { get; set; }
         public string IdTipoCliente { get; set; }
-        public virtual ICollection<Factura> Facturas { get; set; }
     }
 }

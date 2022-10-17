@@ -13,17 +13,20 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+
 builder.Services.AddDbContext<ApplicationContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("AppConnection"));
 });
 
-builder.Services.AddScoped<ICustomer, CustomerRepository>();
-builder.Services.AddScoped<IItem, ItemRepository>();
-builder.Services.AddScoped<IInvoice, InvoiceRepository>();
+builder.Services.AddScoped<ICustomer, ICustomerRepository>();
+builder.Services.AddScoped<IItem, IItemRepository>();
+builder.Services.AddScoped<IInvoice, IInvoiceRepository>();
+
 
 builder.Services.AddScoped<IArticulo, ArticuloRepository>();
-builder.Services.AddScoped<ICliente, ClienteRepository>();
+builder.Services.AddScoped<ICliente, IClienteRepository>();
 builder.Services.AddScoped<IFactura, FacturaRepository>();
 
 

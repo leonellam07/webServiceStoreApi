@@ -44,8 +44,14 @@ C:\Users\leone\source\repos\leonellam07\webServiceStoreApi\webServiceStoreApi\we
 C:\Users\leone\source\repos\leonellam07\webServiceStoreApi\webServiceStoreApi\webServiceStoreApi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\leone\source\repos\leonellam07\webServiceStoreApi\webServiceStoreApi\webServiceStoreApi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\leone\source\repos\leonellam07\webServiceStoreApi\webServiceStoreApi\webServiceStoreApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\leone\source\repos\leonellam07\webServiceStoreApi\webServiceStoreApi\webServiceStoreApi\bin\Debug\net6.0\BusinessLayer.dll
+C:\Users\leone\source\repos\leonellam07\webServiceStoreApi\webServiceStoreApi\webServiceStoreApi\bin\Debug\net6.0\DataAccess.dll
 C:\Users\leone\source\repos\leonellam07\webServiceStoreApi\webServiceStoreApi\webServiceStoreApi\bin\Debug\net6.0\DataBase.dll
+C:\Users\leone\source\repos\leonellam07\webServiceStoreApi\webServiceStoreApi\webServiceStoreApi\bin\Debug\net6.0\Models.dll
+C:\Users\leone\source\repos\leonellam07\webServiceStoreApi\webServiceStoreApi\webServiceStoreApi\bin\Debug\net6.0\BusinessLayer.pdb
 C:\Users\leone\source\repos\leonellam07\webServiceStoreApi\webServiceStoreApi\webServiceStoreApi\bin\Debug\net6.0\DataBase.pdb
+C:\Users\leone\source\repos\leonellam07\webServiceStoreApi\webServiceStoreApi\webServiceStoreApi\bin\Debug\net6.0\DataAccess.pdb
+C:\Users\leone\source\repos\leonellam07\webServiceStoreApi\webServiceStoreApi\webServiceStoreApi\bin\Debug\net6.0\Models.pdb
 C:\Users\leone\source\repos\leonellam07\webServiceStoreApi\webServiceStoreApi\webServiceStoreApi\obj\Debug\net6.0\webServiceStoreApi.csproj.AssemblyReference.cache
 C:\Users\leone\source\repos\leonellam07\webServiceStoreApi\webServiceStoreApi\webServiceStoreApi\obj\Debug\net6.0\webServiceStoreApi.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\leone\source\repos\leonellam07\webServiceStoreApi\webServiceStoreApi\webServiceStoreApi\obj\Debug\net6.0\webServiceStoreApi.AssemblyInfoInputs.cache

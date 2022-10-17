@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace BusinessLayer.Utilities
 {
-    public static class ConvertObjects
+    public static class MapObjects
     {
         #region Cliente-Customer
         public static Cliente ConvertCustomerToCliente(Customer customer)

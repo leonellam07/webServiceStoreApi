@@ -1,5 +1,8 @@
 ﻿using BusinessLayer.Interfaces;
+using BusinessLayer.Utilities;
 using DataAccess.Interfaces;
+using DataAccess.Repositories;
+using DataBase;
 using DataBase.Entities;
 using Models;
 using System;
@@ -12,17 +15,13 @@ namespace BusinessLayer.Repositories
 {
     public class FacturaRepository : IFactura
     {
+        private readonly IInvoiceRepository _invoice;
 
-        private IInvoice _invoice;
-        public FacturaRepository(IInvoice invoice)
-        {
-            _invoice = invoice;
-        }
-
+        public FacturaRepository(ApplicationContext db) => _invoice = new IInvoiceRepository(db);
 
         public Factura Add(Factura factura)
         {
-            return ConvertInvoiceToFactura(_invoice.Add(ConvertFacturaToInvoice(factura)));
+            return MapObjects.ConvertInvoiceToFactura(_invoice.Add(MapObjects.ConvertFacturaToInvoice(factura)));
         }
 
         public bool Cancel(int id)
@@ -32,14 +31,14 @@ namespace BusinessLayer.Repositories
 
         public Factura Find(int id)
         {
-            return ConvertInvoiceToFactura(_invoice.Find(id));
+            return MapObjects.ConvertInvoiceToFactura(_invoice.Find(id));
         }
 
         public ICollection<Factura> GetAll(DateTime fecha)
         {
             return _invoice.GetAll(fecha).Select(invoice =>
             {
-                return ConvertInvoiceToFactura(invoice); 
+                return MapObjects.ConvertInvoiceToFactura(invoice); 
             }).ToList();
         }
 
@@ -47,7 +46,7 @@ namespace BusinessLayer.Repositories
         {
             return _invoice.GetAll(anio, mes, cancelado).Select(invoice =>
             {
-                return ConvertInvoiceToFactura(invoice);
+                return MapObjects.ConvertInvoiceToFactura(invoice);
             }).ToList();
         }
 

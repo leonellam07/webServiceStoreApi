@@ -9,13 +9,13 @@ using System.Threading.Tasks;
 
 namespace DataAccess.Repositories
 {
-    public class CustomerRepository : ICustomer
+    public class ICustomerRepository : ICustomer
     {
-        private ApplicationContext _db;
+        private readonly ApplicationContext _db;
 
-        public CustomerRepository(ApplicationContext applicationContext)
+        public ICustomerRepository(ApplicationContext db)
         {
-            _db = applicationContext;
+            _db = db;
         }
 
         public Customer Add(Customer customer)

@@ -10,13 +10,10 @@ namespace webServiceStoreApi.Controllers
     public class ClienteController : ControllerBase
     {
         private ICliente _clienteRepository;
-        public ClienteController(ICliente cliente)
-        {
-            _clienteRepository = cliente;
-        }
+        public ClienteController(ICliente cliente) => _clienteRepository = cliente;
 
         [HttpGet]
-        public ActionResult<List<Cliente>> Get()
+        public ActionResult<List<Cliente>> GetAll()
         {
             try
             {
@@ -28,6 +25,47 @@ namespace webServiceStoreApi.Controllers
 
             }
         }
+
+        //[HttpGet]
+        //public ActionResult<Cliente> Get(int id)
+        //{
+        //    try
+        //    {
+        //        return StatusCode(200, _clienteRepository.Find(id));
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return StatusCode(500, ex.Message);
+
+        //    }
+        //}
+
+
+        //[HttpPost]
+        //public ActionResult<Cliente> Post(Cliente cliente)
+        //{
+        //    try
+        //    {
+        //        return StatusCode(200, _clienteRepository.Add(cliente));
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return StatusCode(500, ex.Message);
+        //    }
+        //}
+
+        //[HttpPut]
+        //public ActionResult<bool> Put(Cliente cliente)
+        //{
+        //    try
+        //    {
+        //        return StatusCode(200, _clienteRepository.Update(cliente));
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return StatusCode(500, ex.Message);
+        //    }
+        //}
 
     }
 }

@@ -1,5 +1,7 @@
 ﻿using BusinessLayer.Interfaces;
+using BusinessLayer.Utilities;
 using DataAccess.Repositories;
+using DataBase;
 using DataBase.Entities;
 using Models;
 using System;
@@ -12,16 +14,13 @@ namespace BusinessLayer.Repositories
 {
     public class ArticuloRepository : IArticulo
     {
-        private ItemRepository _item;
-        public ArticuloRepository(ItemRepository item)
-        {
-            _item = item;
-        }
+        private readonly IItemRepository _item;
+        public ArticuloRepository(ApplicationContext db) => _item = new IItemRepository(db);
 
         public Articulo Add(Articulo articulo)
         {
             articulo.Cancelado = false;
-            return ConvertItemToArticulo(_item.Add(ConvertArticuloToItem(articulo)));
+            return MapObjects.ConvertItemToArticulo(_item.Add(MapObjects.ConvertArticuloToItem(articulo)));
         }
 
         public bool Cancel(string codigo)
@@ -31,7 +30,7 @@ namespace BusinessLayer.Repositories
 
         public Articulo Find(string codigo)
         {
-            return ConvertItemToArticulo(_item.Find(codigo));
+            return MapObjects.ConvertItemToArticulo(_item.Find(codigo));
         }
 
         public ICollection<Articulo> GetAll()
@@ -39,14 +38,14 @@ namespace BusinessLayer.Repositories
 
             return _item.GetAll().Select(item =>
             {
-                Articulo articulo = ConvertItemToArticulo(item);
+                Articulo articulo = MapObjects.ConvertItemToArticulo(item);
                 return articulo;
             }).ToList();
         }
 
         public bool Update(Articulo articulo)
         {
-            return _item.Update(ConvertArticuloToItem(articulo));
+            return _item.Update(MapObjects.ConvertArticuloToItem(articulo));
         }
 
     

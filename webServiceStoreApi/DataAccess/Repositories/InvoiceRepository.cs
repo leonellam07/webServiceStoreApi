@@ -9,13 +9,14 @@ using System.Threading.Tasks;
 
 namespace DataAccess.Repositories
 {
-    public class InvoiceRepository : IInvoice
+    public class IInvoiceRepository : IInvoice
     {
-        private ApplicationContext _db;
+        private readonly ApplicationContext _db;
 
-        public InvoiceRepository(ApplicationContext applicationContext)
+
+        public IInvoiceRepository(ApplicationContext db)
         {
-            _db = applicationContext;
+            _db = db;
         }
 
         public Invoice Add(Invoice invoice)

@@ -9,6 +9,5 @@
         public decimal Costo { get; set; }
         public int Cantidad { get; set; }
         public bool Cancelado { get; set; }
-        public virtual ICollection<FacturaDetalle> FacturaDetalles { get; set; }
     }
 }

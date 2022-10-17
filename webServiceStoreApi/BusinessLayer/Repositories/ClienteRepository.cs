@@ -1,6 +1,7 @@
 ﻿using BusinessLayer.Interfaces;
 using BusinessLayer.Utilities;
 using DataAccess.Repositories;
+using DataBase;
 using DataBase.Entities;
 using Models;
 using System;
@@ -11,42 +12,40 @@ using System.Threading.Tasks;
 
 namespace BusinessLayer.Repositories
 {
-    public class ClienteRepository : ICliente
+    public class IClienteRepository : ICliente
     {
-        private CustomerRepository _customer;
-        public ClienteRepository(CustomerRepository customer)
-        {
-            _customer = customer;
-        }
+        private readonly ICustomerRepository _customer;
+        public IClienteRepository(ApplicationContext db) => _customer = new ICustomerRepository(db);
+
 
         public Cliente Add(Cliente cliente)
         {
-            return ConvertObjects.ConvertCustomerToCliente(_customer.Add(ConvertObjects.ConvertClienteToCustomer(cliente)));
+            return MapObjects.ConvertCustomerToCliente(_customer.Add(MapObjects.ConvertClienteToCustomer(cliente)));
         }
 
 
         public Cliente Find(int id)
         {
-            return ConvertObjects.ConvertCustomerToCliente(_customer.Find(id));
+            return MapObjects.ConvertCustomerToCliente(_customer.Find(id));
         }
 
         public Cliente Find(string nit)
         {
-            return ConvertObjects.ConvertCustomerToCliente(_customer.Find(nit));
+            return MapObjects.ConvertCustomerToCliente(_customer.Find(nit));
         }
 
         public ICollection<Cliente> GetAll()
         {
             return _customer.GetAll().Select(customer =>
             {
-                Cliente cliente = ConvertObjects.ConvertCustomerToCliente(customer);
+                Cliente cliente = MapObjects.ConvertCustomerToCliente(customer);
                 return cliente;
             }).ToList();
         }
 
         public bool Update(Cliente cliente)
         {
-            return _customer.Update(ConvertObjects.ConvertClienteToCustomer(cliente));
+            return _customer.Update(MapObjects.ConvertClienteToCustomer(cliente));
         }
 
       
