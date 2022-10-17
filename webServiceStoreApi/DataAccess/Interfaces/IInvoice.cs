@@ -16,5 +16,6 @@ namespace DataAccess.Interfaces
         public Invoice Add(Invoice invoice);
         public bool Update(Invoice invoice);
         public bool Cancel(int id);
+        public bool DeleteLine(int idInvoice,int idLine);
     }
 }

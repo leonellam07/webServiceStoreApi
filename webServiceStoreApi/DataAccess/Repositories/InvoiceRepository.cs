@@ -50,6 +50,16 @@ namespace DataAccess.Repositories
             return true;
         }
 
+        public bool DeleteLine(int invoiceId, int idLine)
+        {
+            if (!_db.InvoiceDetails.Any(w => w.InvoiceId == invoiceId && w.Noline == idLine)) throw new Exception("Detalle no encontrado");
+
+            InvoiceDetail detail = _db.InvoiceDetails.Where(w => w.InvoiceId == invoiceId && w.Noline == idLine).FirstOrDefault();
+            _db.InvoiceDetails.Remove(detail);
+            _db.SaveChanges();
+            return true;
+        }
+
         public Invoice Find(int id)
         {
             if (!_db.Invoices.Any(w => w.Id == id)) throw new Exception("Factura no encontrada");

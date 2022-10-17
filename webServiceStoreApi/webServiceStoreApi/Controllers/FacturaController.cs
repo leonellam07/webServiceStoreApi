@@ -76,6 +76,22 @@ namespace webServiceStoreApi.Controllers
         }
 
         [HttpPost]
+        [Route("api/[controller]/deleteLine")]
+        public ActionResult<bool> deleteLine(int idFactura, int idLinea)
+        {
+            try
+            {
+                return StatusCode(200, _facturaRepository.DeleteLine(idFactura, idLinea));
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, ex.Message);
+
+            }
+        }
+
+
+        [HttpPost]
         [Route("api/[controller]/cancel")]
         public ActionResult<bool> Cancel(int id)
         {

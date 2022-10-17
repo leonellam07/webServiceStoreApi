@@ -29,6 +29,11 @@ namespace BusinessLayer.Repositories
             return _invoice.Cancel(id);
         }
 
+        public bool DeleteLine(int idFactura, int idLinea)
+        {
+            return _invoice.DeleteLine(idFactura, idLinea);
+        }
+
         public Factura Find(int id)
         {
             return MapObjects.ConvertInvoiceToFactura(_invoice.Find(id));
