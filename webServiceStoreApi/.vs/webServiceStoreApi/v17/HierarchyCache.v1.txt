@@ -1,0 +1,682 @@
+﻿++Solution 'webServiceStoreApi' ‎(5 of 5 projects)
+i:{00000000-0000-0000-0000-000000000000}:webServiceStoreApi.sln
+++webServiceStoreApi
+i:{00000000-0000-0000-0000-000000000000}:webServiceStoreApi
+++Connected Services 
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:>675
+++Dependencies
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:>674
+i:{17194c6c-2b5b-474e-a6a7-1bdde31d5cc5}:>539
+i:{a2f3e6f9-a08c-4961-a380-c091f94d8477}:>538
+i:{4835709d-6d65-4ff7-a9d0-e2a1b6ab0d3d}:>536
+i:{1796b0fa-6f84-4861-ab54-0068a882e1b3}:>537
+++Properties
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\properties\
+++Controllers
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\controllers\
+++ClienteController.cs
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\controllers\clientecontroller.cs
+++WeatherForecastController.cs
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\controllers\weatherforecastcontroller.cs
+++appsettings.json
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\appsettings.json
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\bin\debug\net6.0\appsettings.json
+++Program.cs
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\program.cs
+++WeatherForecast.cs
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\weatherforecast.cs
+++No service dependencies discovered
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:>676
+++Analyzers
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:analyzers
+i:{17194c6c-2b5b-474e-a6a7-1bdde31d5cc5}:analyzers
+i:{a2f3e6f9-a08c-4961-a380-c091f94d8477}:analyzers
+i:{4835709d-6d65-4ff7-a9d0-e2a1b6ab0d3d}:analyzers
+i:{1796b0fa-6f84-4861-ab54-0068a882e1b3}:analyzers
+++Frameworks
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:frameworks
+i:{17194c6c-2b5b-474e-a6a7-1bdde31d5cc5}:frameworks
+i:{a2f3e6f9-a08c-4961-a380-c091f94d8477}:frameworks
+i:{4835709d-6d65-4ff7-a9d0-e2a1b6ab0d3d}:frameworks
+i:{1796b0fa-6f84-4861-ab54-0068a882e1b3}:frameworks
+++Packages
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:packages
+i:{17194c6c-2b5b-474e-a6a7-1bdde31d5cc5}:packages
+++Projects
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:projects
+i:{4835709d-6d65-4ff7-a9d0-e2a1b6ab0d3d}:projects
+i:{1796b0fa-6f84-4861-ab54-0068a882e1b3}:projects
+++launchSettings.json
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\properties\launchsettings.json
+++appsettings.Development.json
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\appsettings.development.json
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\bin\debug\net6.0\appsettings.development.json
+++Microsoft.AspNetCore.Analyzers
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.App.Analyzers
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.5\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.5\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.SourceGenerator.Tooling.Internal
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.sourcegenerator.tooling.internal.dll
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{17194c6c-2b5b-474e-a6a7-1bdde31d5cc5}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{a2f3e6f9-a08c-4961-a380-c091f94d8477}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{4835709d-6d65-4ff7-a9d0-e2a1b6ab0d3d}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{1796b0fa-6f84-4861-ab54-0068a882e1b3}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{17194c6c-2b5b-474e-a6a7-1bdde31d5cc5}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{a2f3e6f9-a08c-4961-a380-c091f94d8477}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{4835709d-6d65-4ff7-a9d0-e2a1b6ab0d3d}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{1796b0fa-6f84-4861-ab54-0068a882e1b3}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.10\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{17194c6c-2b5b-474e-a6a7-1bdde31d5cc5}:c:\users\leone\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.10\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{4835709d-6d65-4ff7-a9d0-e2a1b6ab0d3d}:c:\users\leone\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.10\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{1796b0fa-6f84-4861-ab54-0068a882e1b3}:c:\users\leone\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.10\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.Extensions.Logging.Generators
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.5\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{17194c6c-2b5b-474e-a6a7-1bdde31d5cc5}:c:\users\leone\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{4835709d-6d65-4ff7-a9d0-e2a1b6ab0d3d}:c:\users\leone\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{1796b0fa-6f84-4861-ab54-0068a882e1b3}:c:\users\leone\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++System.Text.Json.SourceGeneration
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.5\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{17194c6c-2b5b-474e-a6a7-1bdde31d5cc5}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.5\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{a2f3e6f9-a08c-4961-a380-c091f94d8477}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.5\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{4835709d-6d65-4ff7-a9d0-e2a1b6ab0d3d}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.5\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{1796b0fa-6f84-4861-ab54-0068a882e1b3}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.5\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++Microsoft.AspNetCore.App
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\microsoft.aspnetcore.app
+++Microsoft.NETCore.App
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\microsoft.netcore.app
+i:{17194c6c-2b5b-474e-a6a7-1bdde31d5cc5}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\database\microsoft.netcore.app
+i:{a2f3e6f9-a08c-4961-a380-c091f94d8477}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\models\microsoft.netcore.app
+i:{4835709d-6d65-4ff7-a9d0-e2a1b6ab0d3d}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\dataaccess\microsoft.netcore.app
+i:{1796b0fa-6f84-4861-ab54-0068a882e1b3}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\businesslayer\microsoft.netcore.app
+++Microsoft.EntityFrameworkCore.SqlServer (6.0.10)
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:>743
+i:{17194c6c-2b5b-474e-a6a7-1bdde31d5cc5}:>684
+++Microsoft.EntityFrameworkCore.Tools (6.0.10)
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:>745
+i:{17194c6c-2b5b-474e-a6a7-1bdde31d5cc5}:>687
+++Swashbuckle.AspNetCore (6.2.3)
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:>744
+++BusinessLayer
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\businesslayer\bin\debug\net6.0\businesslayer.dll
+i:{00000000-0000-0000-0000-000000000000}:BusinessLayer
+++DataBase
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\database\bin\debug\net6.0\database.dll
+i:{00000000-0000-0000-0000-000000000000}:DataBase
+i:{4835709d-6d65-4ff7-a9d0-e2a1b6ab0d3d}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\database\database.csproj
+++Entities
+i:{17194c6c-2b5b-474e-a6a7-1bdde31d5cc5}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\database\entities\
+++Customer.cs
+i:{17194c6c-2b5b-474e-a6a7-1bdde31d5cc5}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\database\entities\customer.cs
+++Invoice.cs
+i:{17194c6c-2b5b-474e-a6a7-1bdde31d5cc5}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\database\entities\invoice.cs
+++InvoiceDetail.cs
+i:{17194c6c-2b5b-474e-a6a7-1bdde31d5cc5}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\database\entities\invoicedetail.cs
+++Item.cs
+i:{17194c6c-2b5b-474e-a6a7-1bdde31d5cc5}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\database\entities\item.cs
+++Migrations
+i:{17194c6c-2b5b-474e-a6a7-1bdde31d5cc5}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\database\migrations\
+++20221015234906_initDB.cs
+i:{17194c6c-2b5b-474e-a6a7-1bdde31d5cc5}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\database\migrations\20221015234906_initdb.cs
+++ApplicationContextModelSnapshot.cs
+i:{17194c6c-2b5b-474e-a6a7-1bdde31d5cc5}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\database\migrations\applicationcontextmodelsnapshot.cs
+++ApplicationContext.cs
+i:{17194c6c-2b5b-474e-a6a7-1bdde31d5cc5}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\database\applicationcontext.cs
+++20221015234906_initDB.Designer.cs
+i:{17194c6c-2b5b-474e-a6a7-1bdde31d5cc5}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\database\migrations\20221015234906_initdb.designer.cs
+++Microsoft.EntityFrameworkCore (6.0.10)
+i:{17194c6c-2b5b-474e-a6a7-1bdde31d5cc5}:>683
+++Microsoft.EntityFrameworkCore.Design (6.0.10)
+i:{17194c6c-2b5b-474e-a6a7-1bdde31d5cc5}:>685
+++Microsoft.EntityFrameworkCore.Relational (6.0.10)
+i:{17194c6c-2b5b-474e-a6a7-1bdde31d5cc5}:>686
+++Models
+i:{00000000-0000-0000-0000-000000000000}:Models
+i:{1796b0fa-6f84-4861-ab54-0068a882e1b3}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\models\models.csproj
+++Articulo.cs
+i:{a2f3e6f9-a08c-4961-a380-c091f94d8477}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\models\articulo.cs
+++Cliente.cs
+i:{a2f3e6f9-a08c-4961-a380-c091f94d8477}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\models\cliente.cs
+++Factura.cs
+i:{a2f3e6f9-a08c-4961-a380-c091f94d8477}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\models\factura.cs
+++FacturaDetalle.cs
+i:{a2f3e6f9-a08c-4961-a380-c091f94d8477}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\models\facturadetalle.cs
+++DataAccess
+i:{00000000-0000-0000-0000-000000000000}:DataAccess
+i:{1796b0fa-6f84-4861-ab54-0068a882e1b3}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\dataaccess\dataaccess.csproj
+++Interfaces
+i:{4835709d-6d65-4ff7-a9d0-e2a1b6ab0d3d}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\dataaccess\interfaces\
+i:{1796b0fa-6f84-4861-ab54-0068a882e1b3}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\businesslayer\interfaces\
+++ICustomer.cs
+i:{4835709d-6d65-4ff7-a9d0-e2a1b6ab0d3d}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\dataaccess\interfaces\icustomer.cs
+++IInvoice.cs
+i:{4835709d-6d65-4ff7-a9d0-e2a1b6ab0d3d}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\dataaccess\interfaces\iinvoice.cs
+++IItem.cs
+i:{4835709d-6d65-4ff7-a9d0-e2a1b6ab0d3d}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\dataaccess\interfaces\iitem.cs
+++Repositories
+i:{4835709d-6d65-4ff7-a9d0-e2a1b6ab0d3d}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\dataaccess\repositories\
+i:{1796b0fa-6f84-4861-ab54-0068a882e1b3}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\businesslayer\repositories\
+++CustomerRepository.cs
+i:{4835709d-6d65-4ff7-a9d0-e2a1b6ab0d3d}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\dataaccess\repositories\customerrepository.cs
+++InvoiceRepository.cs
+i:{4835709d-6d65-4ff7-a9d0-e2a1b6ab0d3d}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\dataaccess\repositories\invoicerepository.cs
+++ItemRepository.cs
+i:{4835709d-6d65-4ff7-a9d0-e2a1b6ab0d3d}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\dataaccess\repositories\itemrepository.cs
+++IArticulo.cs
+i:{1796b0fa-6f84-4861-ab54-0068a882e1b3}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\businesslayer\interfaces\iarticulo.cs
+++ICliente.cs
+i:{1796b0fa-6f84-4861-ab54-0068a882e1b3}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\businesslayer\interfaces\icliente.cs
+++IFactura.cs
+i:{1796b0fa-6f84-4861-ab54-0068a882e1b3}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\businesslayer\interfaces\ifactura.cs
+++ArticuloRepository.cs
+i:{1796b0fa-6f84-4861-ab54-0068a882e1b3}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\businesslayer\repositories\articulorepository.cs
+++ClienteRepository.cs
+i:{1796b0fa-6f84-4861-ab54-0068a882e1b3}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\businesslayer\repositories\clienterepository.cs
+++FacturaRepository.cs
+i:{1796b0fa-6f84-4861-ab54-0068a882e1b3}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\businesslayer\repositories\facturarepository.cs
+++Utilities
+i:{1796b0fa-6f84-4861-ab54-0068a882e1b3}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\businesslayer\utilities\
+++MapObjects.cs
+i:{1796b0fa-6f84-4861-ab54-0068a882e1b3}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\businesslayer\utilities\mapobjects.cs
+++FacturaController.cs
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\controllers\facturacontroller.cs
+++ArticuloController.cs
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\controllers\articulocontroller.cs
+++bin
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\bin\
+++Debug
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\bin\debug\
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\obj\debug\
+++Release
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\bin\release\
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\obj\release\
+++net6.0
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\bin\debug\net6.0\
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\bin\release\net6.0\
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\obj\debug\net6.0\
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\obj\release\net6.0\
+++runtimes
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\bin\debug\net6.0\runtimes\
+++BusinessLayer.dll
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\bin\debug\net6.0\businesslayer.dll
+++BusinessLayer.pdb
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\bin\debug\net6.0\businesslayer.pdb
+++DataAccess.dll
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\bin\debug\net6.0\dataaccess.dll
+++DataAccess.pdb
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\bin\debug\net6.0\dataaccess.pdb
+++DataBase.dll
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\bin\debug\net6.0\database.dll
+++DataBase.pdb
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\bin\debug\net6.0\database.pdb
+++Humanizer.dll
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\bin\debug\net6.0\humanizer.dll
+++Microsoft.Data.SqlClient.dll
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\bin\debug\net6.0\microsoft.data.sqlclient.dll
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\bin\debug\net6.0\runtimes\unix\lib\netcoreapp3.1\microsoft.data.sqlclient.dll
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\bin\debug\net6.0\runtimes\win\lib\netcoreapp3.1\microsoft.data.sqlclient.dll
+++Microsoft.EntityFrameworkCore.Abstractions.dll
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\bin\debug\net6.0\microsoft.entityframeworkcore.abstractions.dll
+++Microsoft.EntityFrameworkCore.Design.dll
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\bin\debug\net6.0\microsoft.entityframeworkcore.design.dll
+++Microsoft.EntityFrameworkCore.dll
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\bin\debug\net6.0\microsoft.entityframeworkcore.dll
+++Microsoft.EntityFrameworkCore.Relational.dll
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\bin\debug\net6.0\microsoft.entityframeworkcore.relational.dll
+++Microsoft.EntityFrameworkCore.SqlServer.dll
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\bin\debug\net6.0\microsoft.entityframeworkcore.sqlserver.dll
+++Microsoft.Extensions.Caching.Memory.dll
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\bin\debug\net6.0\microsoft.extensions.caching.memory.dll
+++Microsoft.Extensions.DependencyInjection.dll
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\bin\debug\net6.0\microsoft.extensions.dependencyinjection.dll
+++Microsoft.Identity.Client.dll
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\bin\debug\net6.0\microsoft.identity.client.dll
+++Microsoft.IdentityModel.JsonWebTokens.dll
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\bin\debug\net6.0\microsoft.identitymodel.jsonwebtokens.dll
+++Microsoft.IdentityModel.Logging.dll
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\bin\debug\net6.0\microsoft.identitymodel.logging.dll
+++Microsoft.IdentityModel.Protocols.dll
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\bin\debug\net6.0\microsoft.identitymodel.protocols.dll
+++Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\bin\debug\net6.0\microsoft.identitymodel.protocols.openidconnect.dll
+++Microsoft.IdentityModel.Tokens.dll
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\bin\debug\net6.0\microsoft.identitymodel.tokens.dll
+++Microsoft.OpenApi.dll
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\bin\debug\net6.0\microsoft.openapi.dll
+++Microsoft.Win32.SystemEvents.dll
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\bin\debug\net6.0\microsoft.win32.systemevents.dll
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\bin\debug\net6.0\runtimes\win\lib\netcoreapp3.0\microsoft.win32.systemevents.dll
+++Models.dll
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\bin\debug\net6.0\models.dll
+++Models.pdb
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\bin\debug\net6.0\models.pdb
+++Swashbuckle.AspNetCore.Swagger.dll
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\bin\debug\net6.0\swashbuckle.aspnetcore.swagger.dll
+++Swashbuckle.AspNetCore.SwaggerGen.dll
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\bin\debug\net6.0\swashbuckle.aspnetcore.swaggergen.dll
+++Swashbuckle.AspNetCore.SwaggerUI.dll
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\bin\debug\net6.0\swashbuckle.aspnetcore.swaggerui.dll
+++System.Configuration.ConfigurationManager.dll
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\bin\debug\net6.0\system.configuration.configurationmanager.dll
+++System.Drawing.Common.dll
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\bin\debug\net6.0\system.drawing.common.dll
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\bin\debug\net6.0\runtimes\unix\lib\netcoreapp3.0\system.drawing.common.dll
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\bin\debug\net6.0\runtimes\win\lib\netcoreapp3.0\system.drawing.common.dll
+++System.IdentityModel.Tokens.Jwt.dll
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\bin\debug\net6.0\system.identitymodel.tokens.jwt.dll
+++System.Runtime.Caching.dll
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\bin\debug\net6.0\system.runtime.caching.dll
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\bin\debug\net6.0\runtimes\win\lib\netstandard2.0\system.runtime.caching.dll
+++System.Security.Cryptography.ProtectedData.dll
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\bin\debug\net6.0\system.security.cryptography.protecteddata.dll
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\bin\debug\net6.0\runtimes\win\lib\netstandard2.0\system.security.cryptography.protecteddata.dll
+++System.Security.Permissions.dll
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\bin\debug\net6.0\system.security.permissions.dll
+++System.Windows.Extensions.dll
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\bin\debug\net6.0\system.windows.extensions.dll
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\bin\debug\net6.0\runtimes\win\lib\netcoreapp3.0\system.windows.extensions.dll
+++webServiceStoreApi.deps.json
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\bin\debug\net6.0\webservicestoreapi.deps.json
+++webServiceStoreApi.dll
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\bin\debug\net6.0\webservicestoreapi.dll
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\obj\debug\net6.0\webservicestoreapi.dll
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\obj\debug\net6.0\ref\webservicestoreapi.dll
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\obj\debug\net6.0\refint\webservicestoreapi.dll
+++webServiceStoreApi.exe
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\bin\debug\net6.0\webservicestoreapi.exe
+++webServiceStoreApi.pdb
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\bin\debug\net6.0\webservicestoreapi.pdb
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\obj\debug\net6.0\webservicestoreapi.pdb
+++webServiceStoreApi.runtimeconfig.json
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\bin\debug\net6.0\webservicestoreapi.runtimeconfig.json
+++unix
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\bin\debug\net6.0\runtimes\unix\
+++win
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\bin\debug\net6.0\runtimes\win\
+++win-arm
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\bin\debug\net6.0\runtimes\win-arm\
+++win-arm64
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\bin\debug\net6.0\runtimes\win-arm64\
+++win-x64
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\bin\debug\net6.0\runtimes\win-x64\
+++win-x86
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\bin\debug\net6.0\runtimes\win-x86\
+++lib
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\bin\debug\net6.0\runtimes\unix\lib\
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\bin\debug\net6.0\runtimes\win\lib\
+++native
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\bin\debug\net6.0\runtimes\win-arm\native\
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\bin\debug\net6.0\runtimes\win-arm64\native\
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\bin\debug\net6.0\runtimes\win-x64\native\
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\bin\debug\net6.0\runtimes\win-x86\native\
+++netcoreapp3.0
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\bin\debug\net6.0\runtimes\unix\lib\netcoreapp3.0\
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\bin\debug\net6.0\runtimes\win\lib\netcoreapp3.0\
+++netcoreapp3.1
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\bin\debug\net6.0\runtimes\unix\lib\netcoreapp3.1\
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\bin\debug\net6.0\runtimes\win\lib\netcoreapp3.1\
+++netstandard2.0
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\bin\debug\net6.0\runtimes\win\lib\netstandard2.0\
+++Microsoft.Data.SqlClient.SNI.dll
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\bin\debug\net6.0\runtimes\win-arm\native\microsoft.data.sqlclient.sni.dll
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\bin\debug\net6.0\runtimes\win-arm64\native\microsoft.data.sqlclient.sni.dll
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\bin\debug\net6.0\runtimes\win-x64\native\microsoft.data.sqlclient.sni.dll
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\bin\debug\net6.0\runtimes\win-x86\native\microsoft.data.sqlclient.sni.dll
+++obj
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\obj\
+++project.assets.json
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\obj\project.assets.json
+++project.nuget.cache
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\obj\project.nuget.cache
+++staticwebassets.pack.sentinel
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\obj\staticwebassets.pack.sentinel
+++webServiceStoreApi.csproj.nuget.dgspec.json
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\obj\webservicestoreapi.csproj.nuget.dgspec.json
+++webServiceStoreApi.csproj.nuget.g.props
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\obj\webservicestoreapi.csproj.nuget.g.props
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\obj\webservicestoreapi.csproj.nuget.g.props
+++webServiceStoreApi.csproj.nuget.g.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\obj\webservicestoreapi.csproj.nuget.g.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\obj\webservicestoreapi.csproj.nuget.g.targets
+++ref
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\obj\debug\net6.0\ref\
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\obj\release\net6.0\ref\
+++refint
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\obj\debug\net6.0\refint\
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\obj\release\net6.0\refint\
+++staticwebassets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\obj\debug\net6.0\staticwebassets\
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\obj\release\net6.0\staticwebassets\
+++.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\obj\debug\net6.0\.netcoreapp,version=v6.0.assemblyattributes.cs
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\obj\release\net6.0\.netcoreapp,version=v6.0.assemblyattributes.cs
+++apphost.exe
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\obj\debug\net6.0\apphost.exe
+++staticwebassets.build.json
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\obj\debug\net6.0\staticwebassets.build.json
+++webServiceStoreApi.AssemblyInfo.cs
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\obj\debug\net6.0\webservicestoreapi.assemblyinfo.cs
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\obj\release\net6.0\webservicestoreapi.assemblyinfo.cs
+++webServiceStoreApi.AssemblyInfoInputs.cache
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\obj\debug\net6.0\webservicestoreapi.assemblyinfoinputs.cache
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\obj\release\net6.0\webservicestoreapi.assemblyinfoinputs.cache
+++webServiceStoreApi.assets.cache
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\obj\debug\net6.0\webservicestoreapi.assets.cache
+++webServiceStoreApi.csproj.AssemblyReference.cache
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\obj\debug\net6.0\webservicestoreapi.csproj.assemblyreference.cache
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\obj\release\net6.0\webservicestoreapi.csproj.assemblyreference.cache
+++webServiceStoreApi.csproj.BuildWithSkipAnalyzers
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\obj\debug\net6.0\webservicestoreapi.csproj.buildwithskipanalyzers
+++webServiceStoreApi.csproj.CopyComplete
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\obj\debug\net6.0\webservicestoreapi.csproj.copycomplete
+++webServiceStoreApi.csproj.CoreCompileInputs.cache
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\obj\debug\net6.0\webservicestoreapi.csproj.corecompileinputs.cache
+++webServiceStoreApi.csproj.FileListAbsolute.txt
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\obj\debug\net6.0\webservicestoreapi.csproj.filelistabsolute.txt
+++webServiceStoreApi.GeneratedMSBuildEditorConfig.editorconfig
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\obj\debug\net6.0\webservicestoreapi.generatedmsbuildeditorconfig.editorconfig
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\obj\release\net6.0\webservicestoreapi.generatedmsbuildeditorconfig.editorconfig
+++webServiceStoreApi.genruntimeconfig.cache
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\obj\debug\net6.0\webservicestoreapi.genruntimeconfig.cache
+++webServiceStoreApi.GlobalUsings.g.cs
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\obj\debug\net6.0\webservicestoreapi.globalusings.g.cs
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\obj\release\net6.0\webservicestoreapi.globalusings.g.cs
+++webServiceStoreApi.MvcApplicationPartsAssemblyInfo.cache
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\obj\debug\net6.0\webservicestoreapi.mvcapplicationpartsassemblyinfo.cache
+++webServiceStoreApi.MvcApplicationPartsAssemblyInfo.cs
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\obj\debug\net6.0\webservicestoreapi.mvcapplicationpartsassemblyinfo.cs
+++Imports
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:>908
+++Sdk.props
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk.web\sdk\sdk.props
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.illink.tasks\sdk\sdk.props
+++Sdk.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk.web\sdk\sdk.targets
+++Sdk.props (C:\Program Files\dotnet\sdk\6.0.203\Sdks\Microsoft.NET.Sdk\Sdk)
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk\sdk\sdk.props
+++Sdk.props (C:\Program Files\dotnet\sdk\6.0.203\Sdks\Microsoft.NET.Sdk.Razor\Sdk)
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk.razor\sdk\sdk.props
+++Sdk.props (C:\Program Files\dotnet\sdk\6.0.203\Sdks\Microsoft.NET.Sdk.Web.ProjectSystem\Sdk)
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk.web.projectsystem\sdk\sdk.props
+++Sdk.props (C:\Program Files\dotnet\sdk\6.0.203\Sdks\Microsoft.NET.Sdk.Publish\Sdk)
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk.publish\sdk\sdk.props
+++Sdk.targets (C:\Program Files\dotnet\sdk\6.0.203\Sdks\Microsoft.NET.Sdk\Sdk)
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk\sdk\sdk.targets
+++Sdk.targets (C:\Program Files\dotnet\sdk\6.0.203\Sdks\Microsoft.NET.Sdk.Razor\Sdk)
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk.razor\sdk\sdk.targets
+++Sdk.targets (C:\Program Files\dotnet\sdk\6.0.203\Sdks\Microsoft.NET.Sdk.Web.ProjectSystem\Sdk)
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk.web.projectsystem\sdk\sdk.targets
+++Sdk.targets (C:\Program Files\dotnet\sdk\6.0.203\Sdks\Microsoft.NET.Sdk.Publish\Sdk)
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk.publish\sdk\sdk.targets
+++Microsoft.Common.props
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.props
+++Microsoft.NET.Sdk.props
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.props
+++Sdk.Razor.CurrentVersion.props
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk.razor\targets\sdk.razor.currentversion.props
+++Microsoft.NET.Sdk.Web.ProjectSystem.props
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk.web.projectsystem\targets\microsoft.net.sdk.web.projectsystem.props
+++Microsoft.NET.Sdk.Publish.props
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk.publish\targets\microsoft.net.sdk.publish.props
+++Microsoft.NET.Sdk.BeforeCommon.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.beforecommon.targets
+++Microsoft.CSharp.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.csharp.targets
+++Microsoft.NET.Sdk.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.targets
+++Microsoft.NET.Compatibility.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk\targets\microsoft.net.compatibility.targets
+++NuGet.Build.Tasks.Pack.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\nuget.build.tasks.pack\build\nuget.build.tasks.pack.targets
+++Sdk.Razor.CurrentVersion.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk.razor\targets\sdk.razor.currentversion.targets
+++Microsoft.NET.Sdk.Web.ProjectSystem.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk.web.projectsystem\targets\microsoft.net.sdk.web.projectsystem.targets
+++Microsoft.NET.Sdk.Publish.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk.publish\targets\microsoft.net.sdk.publish.targets
+++Microsoft.NuGet.ImportBefore.props
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\microsoft visual studio\2022\community\msbuild\current\imports\microsoft.common.props\importbefore\microsoft.nuget.importbefore.props
+++NuGet.props
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\microsoft visual studio\2022\community\common7\ide\commonextensions\microsoft\nuget\nuget.props
+++Microsoft.NET.Sdk.DefaultItems.props
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.defaultitems.props
+++Microsoft.NET.Sdk.ImportWorkloads.props
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.importworkloads.props
+++Microsoft.NET.SupportedTargetFrameworks.props
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk\targets\microsoft.net.supportedtargetframeworks.props
+++Microsoft.NET.SupportedPlatforms.props
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk\targets\microsoft.net.supportedplatforms.props
+++Microsoft.NET.WindowsSdkSupportedTargetPlatforms.props
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk\targets\microsoft.net.windowssdksupportedtargetplatforms.props
+++Microsoft.NET.Sdk.CSharp.props
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.csharp.props
+++Microsoft.NET.ILLink.props
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk\targets\microsoft.net.illink.props
+++Microsoft.NET.Compatibility.props
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk\targets\microsoft.net.compatibility.props
+++Microsoft.NET.PackTool.props
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk\targets\microsoft.net.packtool.props
+++Microsoft.NET.PackProjectTool.props
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk\targets\microsoft.net.packprojecttool.props
+++Microsoft.NET.Sdk.WindowsDesktop.props
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk.windowsdesktop\targets\microsoft.net.sdk.windowsdesktop.props
+++Microsoft.NET.Windows.props
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk\targets\microsoft.net.windows.props
+++Sdk.Razor.StaticAssets.ProjectSystem.props
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk.razor\sdk\sdk.razor.staticassets.projectsystem.props
+++Microsoft.TypeScript.Default.props
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\v17.0\typescript\microsoft.typescript.default.props
+++Microsoft.NET.Sdk.Web.DefaultItems.props
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk.web.projectsystem\targets\microsoft.net.sdk.web.defaultitems.props
+++Microsoft.NET.DefaultAssemblyInfo.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk\targets\microsoft.net.defaultassemblyinfo.targets
+++Microsoft.NET.DefaultOutputPaths.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk\targets\microsoft.net.defaultoutputpaths.targets
+++Microsoft.NET.Sdk.ImportPublishProfile.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.importpublishprofile.targets
+++Microsoft.NET.TargetFrameworkInference.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk\targets\microsoft.net.targetframeworkinference.targets
+++Microsoft.NET.Sdk.Razor.BeforeCommon.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.beforecommon.targets
+++Microsoft.NET.Sdk.ImportWorkloads.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.importworkloads.targets
+++Microsoft.NET.RuntimeIdentifierInference.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk\targets\microsoft.net.runtimeidentifierinference.targets
+++Microsoft.NET.EolTargetFrameworks.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk\targets\microsoft.net.eoltargetframeworks.targets
+++Microsoft.NET.NuGetOfflineCache.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk\targets\microsoft.net.nugetofflinecache.targets
+++Microsoft.Managed.Before.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.managed.before.targets
+++Microsoft.CSharp.CurrentVersion.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.csharp.currentversion.targets
+++Microsoft.Managed.After.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.managed.after.targets
+++Microsoft.NET.Sdk.Common.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.common.targets
+++Microsoft.PackageDependencyResolution.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk\targets\microsoft.packagedependencyresolution.targets
+++Microsoft.NET.Sdk.DefaultItems.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.defaultitems.targets
+++Microsoft.NET.Sdk.FrameworkReferenceResolution.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.frameworkreferenceresolution.targets
+++Microsoft.NET.Sdk.Shared.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.shared.targets
+++Microsoft.NET.DisableStandardFrameworkResolution.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk\targets\microsoft.net.disablestandardframeworkresolution.targets
+++Microsoft.NET.DesignerSupport.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk\targets\microsoft.net.designersupport.targets
+++Microsoft.NET.GenerateAssemblyInfo.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk\targets\microsoft.net.generateassemblyinfo.targets
+++Microsoft.NET.GenerateGlobalUsings.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk\targets\microsoft.net.generateglobalusings.targets
+++Microsoft.NET.GenerateSupportedRuntime.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk\targets\microsoft.net.generatesupportedruntime.targets
+++Microsoft.NET.ComposeStore.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk\targets\microsoft.net.composestore.targets
+++Microsoft.NET.CrossGen.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk\targets\microsoft.net.crossgen.targets
+++Microsoft.NET.ObsoleteReferences.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk\targets\microsoft.net.obsoletereferences.targets
+++Microsoft.NET.Publish.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk\targets\microsoft.net.publish.targets
+++Microsoft.NET.PackTool.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk\targets\microsoft.net.packtool.targets
+++Microsoft.NET.PackProjectTool.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk\targets\microsoft.net.packprojecttool.targets
+++Microsoft.NET.PreserveCompilationContext.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk\targets\microsoft.net.preservecompilationcontext.targets
+++Microsoft.NET.ConflictResolution.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk\targets\microsoft.net.conflictresolution.targets
+++Microsoft.NET.Sdk.CSharp.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.csharp.targets
+++Microsoft.NET.ILLink.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk\targets\microsoft.net.illink.targets
+++Microsoft.NET.Sdk.Analyzers.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.analyzers.targets
+++Microsoft.NET.Compatibility.Common.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk\targets\microsoft.net.compatibility.common.targets
+++Microsoft.NET.Sdk.Razor.Configuration.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.configuration.targets
+++Microsoft.NET.Sdk.Razor.CodeGeneration.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.codegeneration.targets
+++Microsoft.NET.Sdk.Razor.SourceGenerators.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.sourcegenerators.targets
+++Microsoft.NET.Sdk.Razor.StaticWebAssets.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.staticwebassets.targets
+++Microsoft.NET.Sdk.Razor.ScopedCss.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.scopedcss.targets
+++Microsoft.NET.Sdk.Razor.JSModules.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.jsmodules.targets
+++Microsoft.NET.Sdk.Razor.GenerateAssemblyInfo.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.generateassemblyinfo.targets
+++Microsoft.NET.Sdk.Razor.MvcApplicationPartsDiscovery.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.mvcapplicationpartsdiscovery.targets
+++Microsoft.NET.Sdk.Razor.DesignTime.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\razor\microsoft.net.sdk.razor.designtime.targets
+++Microsoft.TypeScript.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\v17.0\typescript\microsoft.typescript.targets
+++Microsoft.TypeScript.DotNetCore.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\v17.0\typescript\microsoft.typescript.dotnetcore.targets
+++Microsoft.Web.Designtime.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\managed.web\microsoft.web.designtime.targets
+++Default.pubxml
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk.publish\targets\publishprofiles\default.pubxml
+++Microsoft.NET.Sdk.Publish.ComputeFiles.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk.publish\targets\computetargets\microsoft.net.sdk.publish.computefiles.targets
+++Microsoft.NET.Sdk.Publish.FilterFiles.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk.publish\targets\copytargets\microsoft.net.sdk.publish.filterfiles.targets
+++Microsoft.NET.Sdk.Publish.CopyFiles.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk.publish\targets\copytargets\microsoft.net.sdk.publish.copyfiles.targets
+++Microsoft.NET.Sdk.Publish.TransformFiles.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk.publish\targets\transformtargets\microsoft.net.sdk.publish.transformfiles.targets
+++Microsoft.NET.Sdk.Publish.FileSystem.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk.publish\targets\publishtargets\microsoft.net.sdk.publish.filesystem.targets
+++Microsoft.NET.Sdk.DotNetCLITool.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk.publish\targets\dotnetclitooltargets\microsoft.net.sdk.dotnetclitool.targets
+++Microsoft.Extensions.ApiDescription.Server.props
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\.nuget\packages\microsoft.extensions.apidescription.server\3.0.0\build\microsoft.extensions.apidescription.server.props
+++Swashbuckle.AspNetCore.props
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\.nuget\packages\swashbuckle.aspnetcore\6.2.3\build\swashbuckle.aspnetcore.props
+++Microsoft.EntityFrameworkCore.props
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\.nuget\packages\microsoft.entityframeworkcore\6.0.10\buildtransitive\net6.0\microsoft.entityframeworkcore.props
+++Microsoft.EntityFrameworkCore.Design.props
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\.nuget\packages\microsoft.entityframeworkcore.design\6.0.10\build\net6.0\microsoft.entityframeworkcore.design.props
+++Microsoft.NuGet.props
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\nuget\17.0\microsoft.nuget.props
+++Microsoft.NETCoreSdk.BundledVersions.props
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\microsoft.netcoresdk.bundledversions.props
+++Microsoft.NET.Sdk.WindowsDesktop.WindowsForms.props
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk.windowsdesktop\targets\microsoft.net.sdk.windowsdesktop.windowsforms.props
+++Microsoft.NET.Sdk.WindowsDesktop.WPF.props
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk.windowsdesktop\targets\microsoft.net.sdk.windowsdesktop.wpf.props
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.android)
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.android\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.ios)
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.ios\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.maccatalyst)
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.maccatalyst\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.macos)
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.macos\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.maui)
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.maui\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.tvos)
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.tvos\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.200\microsoft.net.workload.emscripten)
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk-manifests\6.0.200\microsoft.net.workload.emscripten\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.200\microsoft.net.workload.mono.toolchain)
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk-manifests\6.0.200\microsoft.net.workload.mono.toolchain\workloadmanifest.targets
+++Microsoft.CSharp.Core.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\roslyn\microsoft.csharp.core.targets
+++Microsoft.CSharp.DesignTime.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\managed\microsoft.csharp.designtime.targets
+++Microsoft.Common.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.common.targets
+++Microsoft.ServiceModel.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.servicemodel.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\windows\microsoft.net\framework\v4.0.30319\microsoft.servicemodel.targets
+++Microsoft.NET.Sdk.DefaultItems.Shared.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.defaultitems.shared.targets
+++Microsoft.NETCoreSdk.BundledCliTools.props
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\microsoft.netcoresdk.bundledclitools.props
+++Microsoft.NET.DefaultPackageConflictOverrides.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk\targets\microsoft.net.defaultpackageconflictoverrides.targets
+++Microsoft.CodeAnalysis.NetAnalyzers.props
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk\analyzers\build\microsoft.codeanalysis.netanalyzers.props
+++Microsoft.CodeAnalysis.NetAnalyzers.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk\analyzers\build\microsoft.codeanalysis.netanalyzers.targets
+++Microsoft.NET.ILLink.Tasks.props
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.illink.tasks\build\microsoft.net.illink.tasks.props
+++System.Windows.Forms.Analyzers.props
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk.windowsdesktop\targets\system.windows.forms.analyzers.props
+++Microsoft.Managed.Core.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\roslyn\microsoft.managed.core.targets
+++Microsoft.Managed.DesignTime.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\managed\microsoft.managed.designtime.targets
+++Microsoft.Common.CurrentVersion.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.common.currentversion.targets
+++Microsoft.Managed.Core.CurrentVersions.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\roslyn\microsoft.managed.core.currentversions.targets
+++webServiceStoreApi.csproj.user
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\source\repos\leonellam07\webservicestoreapi\webservicestoreapi\webservicestoreapi\webservicestoreapi.csproj.user
+++Microsoft.NET.props
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.net.props
+++Microsoft.CodeAnalysis.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\v17.0\codeanalysis\microsoft.codeanalysis.targets
+++Microsoft.Xaml.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.xaml.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\windows\microsoft.net\framework\v4.0.30319\microsoft.xaml.targets
+++Microsoft.WorkflowBuildExtensions.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.workflowbuildextensions.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\windows\microsoft.net\framework\v4.0.30319\microsoft.workflowbuildextensions.targets
+++Microsoft.TeamTest.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\v17.0\teamtest\microsoft.teamtest.targets
+++NuGet.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\microsoft visual studio\2022\community\common7\ide\commonextensions\microsoft\nuget\nuget.targets
+++Microsoft.Docker.ImportAfter.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importafter\microsoft.docker.importafter.targets
+++Microsoft.NET.Build.Extensions.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importafter\microsoft.net.build.extensions.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\microsoft.net.build.extensions\microsoft.net.build.extensions.targets
+++Microsoft.NuGet.ImportAfter.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importafter\microsoft.nuget.importafter.targets
+++Microsoft.Web.ImportAfter.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importafter\microsoft.web.importafter.targets
+++Microsoft.Extensions.ApiDescription.Server.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\users\leone\.nuget\packages\microsoft.extensions.apidescription.server\3.0.0\build\microsoft.extensions.apidescription.server.targets
+++Microsoft.Docker.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\microsoft visual studio\2022\community\msbuild\sdks\microsoft.docker.sdk\build\microsoft.docker.targets
+++Microsoft.Web.IISSupport.targets
+i:{692e4d73-c8bf-4e5d-9341-48dca0042928}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\managed.web\microsoft.web.iissupport.targets
