@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DataBase.Migrations
 {
     [DbContext(typeof(ApplicationContext))]
-    [Migration("20221017063232_initDb")]
-    partial class initDb
+    [Migration("20221018071033_initDB")]
+    partial class initDB
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -103,7 +103,10 @@ namespace DataBase.Migrations
             modelBuilder.Entity("DataBase.Entities.InvoiceDetail", b =>
                 {
                     b.Property<int>("Noline")
+                        .ValueGeneratedOnAdd()
                         .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Noline"), 1L, 1);
 
                     b.Property<int>("InvoiceId")
                         .HasColumnType("int");
@@ -117,8 +120,8 @@ namespace DataBase.Migrations
                     b.Property<int>("Quantity")
                         .HasColumnType("int");
 
-                    b.Property<int>("Total")
-                        .HasColumnType("int");
+                    b.Property<decimal>("Total")
+                        .HasColumnType("decimal(18,2)");
 
                     b.Property<decimal>("Vat")
                         .HasColumnType("decimal(18,2)");

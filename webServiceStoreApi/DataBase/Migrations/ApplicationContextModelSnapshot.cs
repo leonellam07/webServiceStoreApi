@@ -101,7 +101,10 @@ namespace DataBase.Migrations
             modelBuilder.Entity("DataBase.Entities.InvoiceDetail", b =>
                 {
                     b.Property<int>("Noline")
+                        .ValueGeneratedOnAdd()
                         .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Noline"), 1L, 1);
 
                     b.Property<int>("InvoiceId")
                         .HasColumnType("int");
@@ -115,8 +118,8 @@ namespace DataBase.Migrations
                     b.Property<int>("Quantity")
                         .HasColumnType("int");
 
-                    b.Property<int>("Total")
-                        .HasColumnType("int");
+                    b.Property<decimal>("Total")
+                        .HasColumnType("decimal(18,2)");
 
                     b.Property<decimal>("Vat")
                         .HasColumnType("decimal(18,2)");

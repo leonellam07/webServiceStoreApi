@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -9,6 +10,7 @@ namespace DataBase.Entities
 {
     public class InvoiceDetail
     {
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Noline { get; set; }
 
         public int InvoiceId { get; set; }
@@ -27,7 +29,7 @@ namespace DataBase.Entities
         public decimal Vat { get; set; }
 
         [Required]
-        public int Total { get; set; }
+        public decimal Total { get; set; }
 
     }
 }
