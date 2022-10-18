@@ -29,7 +29,7 @@ namespace DataBase.Entities
         public decimal Vat { get; set; }
 
         [Required]
-        public int Total { get; set; }
+        public decimal Total { get; set; }
 
     }
 }
