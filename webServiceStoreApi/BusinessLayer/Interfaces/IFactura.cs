@@ -16,6 +16,7 @@ namespace BusinessLayer.Interfaces
         public Factura Add(Factura factura);
         public bool Update(Factura factura);
         public bool Cancel(int id);
+        public bool Delete(int id);
         public bool DeleteLine(int idFactura, int idLinea);
     }
 }

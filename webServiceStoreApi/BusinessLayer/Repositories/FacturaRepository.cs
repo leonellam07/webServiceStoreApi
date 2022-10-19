@@ -29,6 +29,11 @@ namespace BusinessLayer.Repositories
             return _invoice.Cancel(id);
         }
 
+        public bool Delete(int id)
+        {
+            return _invoice.Delete(id);
+        }
+
         public bool DeleteLine(int idFactura, int idLinea)
         {
             return _invoice.DeleteLine(idFactura, idLinea);

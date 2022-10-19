@@ -106,5 +106,20 @@ namespace webServiceStoreApi.Controllers
             }
         }
 
+        [HttpDelete]
+        [Route("api/[controller]")]
+        public ActionResult<bool> Delete(int id)
+        {
+            try
+            {
+                return StatusCode(200, _facturaRepository.Delete(id));
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, ex.Message);
+
+            }
+        }
+
     }
 }

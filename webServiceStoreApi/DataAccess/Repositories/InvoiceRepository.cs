@@ -21,7 +21,18 @@ namespace DataAccess.Repositories
 
         public Invoice Add(Invoice invoice)
         {
-            invoice.Customer = null;
+            Customer customer = new Customer();
+            if (!_db.Customers.Any(w => w.NIT == invoice.Customer.NIT))
+            {
+                customer = invoice.Customer;
+                _db.Customers.Add(customer);
+            }
+
+            customer = _db.Customers.Where(w => w.NIT == invoice.Customer.NIT).FirstOrDefault();
+            invoice.CustomerId = customer.Id;
+            invoice.Customer = customer;
+
+
             List<InvoiceDetail> details = invoice.InvoiceDetails.Select(detail => new InvoiceDetail
             {
                 InvoiceId = detail.InvoiceId,
@@ -46,6 +57,15 @@ namespace DataAccess.Repositories
             Invoice invoice = _db.Invoices.Where(w => w.Id == id).FirstOrDefault();
             invoice.IsCanceled = true;
             _db.Invoices.Update(invoice);
+            _db.SaveChanges();
+            return true;
+        }
+
+        public bool Delete(int idInvoice)
+        {
+            if (!_db.Invoices.Any(w => w.Id == idInvoice)) throw new Exception("Factura no encontrada");
+            Invoice invoice = _db.Invoices.Where(w => w.Id == idInvoice).FirstOrDefault();
+            _db.Invoices.Remove(invoice);
             _db.SaveChanges();
             return true;
         }
@@ -134,8 +154,27 @@ namespace DataAccess.Repositories
         public bool Update(Invoice invoice)
         {
             if (!_db.Invoices.Any(w => w.Id == invoice.Id)) throw new Exception("Factura no encontrada");
+            Invoice newInvoice = _db.Invoices.Where(w => w.Id == invoice.Id).FirstOrDefault();
 
-            _db.Invoices.Update(invoice);
+            ICollection<InvoiceDetail> oldDetails = _db.InvoiceDetails.Where(w => w.InvoiceId == invoice.Id).ToList();
+            _db.InvoiceDetails.RemoveRange(oldDetails);
+
+            List<InvoiceDetail> newDetails = invoice.InvoiceDetails.Select(detail => new InvoiceDetail
+            {
+                InvoiceId = detail.InvoiceId,
+                ItemId = detail.ItemId,
+                Noline = detail.Noline,
+                Price = detail.Price,
+                Quantity = detail.Quantity,
+                Vat = detail.Vat,
+                Total = detail.Total
+            }).ToList();
+
+            newInvoice.InvoiceDetails = newDetails;
+            newInvoice.IsCanceled = invoice.IsCanceled;
+            newInvoice.IsClosed = invoice.IsClosed;
+
+            _db.Invoices.Update(newInvoice);
             _db.SaveChanges();
             return true;
         }
