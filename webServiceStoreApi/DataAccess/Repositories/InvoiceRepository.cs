@@ -26,6 +26,7 @@ namespace DataAccess.Repositories
             {
                 customer = invoice.Customer;
                 _db.Customers.Add(customer);
+                _db.SaveChanges();
             }
 
             customer = _db.Customers.Where(w => w.NIT == invoice.Customer.NIT).FirstOrDefault();
